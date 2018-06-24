@@ -1,7 +1,8 @@
 class Store(object):
 
-    def __init__(self, location,  numSeats, numServers, avgServiceTime, autoCheckInR, saveSpotR, businessClosingTime):
+    def __init__(self, name, location,  numSeats, numServers, avgServiceTime, autoCheckInR, saveSpotR, businessClosingTime):
         #constructor
+        self.name = name
         self.location = location
         self.numSeats = numSeats
         self.numServers = numServers
